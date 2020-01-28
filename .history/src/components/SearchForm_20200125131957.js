@@ -17,12 +17,12 @@ export default function SearchForm() {
     <section className="search-form">
       <form onSubmit={event => handleSubmit(event)}>
         <label htmlFor="search">
-          Search :  
+          Search:
           <input
             id="search"
-            // name="search"
+            name="search"
             placeholder="Search Here"
-            defaultValue={search.name}
+            value={search.name}
             onChange={handleUserChange}
             type="text" />
         </label>

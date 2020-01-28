@@ -5,7 +5,7 @@ const Contain = styled.div`
   font-size: 1.5rem;
   color: black;
   margin-bottom: 2rem;
-  border: 0.25rem solid black;
+  border: 0.5rem solid black;
 `
 const Div = styled.div`
   display: flex;

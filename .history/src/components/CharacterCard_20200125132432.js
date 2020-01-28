@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 const Contain = styled.div`
   font-size: 1.5rem;
-  color: black;
-  margin-bottom: 2rem;
-  border: 0.25rem solid black;
+  color: blue;
+  margin-bottom: 1rem;
+  border: 1rem solid black;
 `
 const Div = styled.div`
-  display: flex;
-  justify-content: center;
+  display: flex-wrap;
+  justify-content: space-between;
 `
 
 export default function CharacterCard(props) {
