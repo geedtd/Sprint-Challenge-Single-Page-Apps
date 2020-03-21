@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Container = styled.div`
-margin-left: 50px;
 display: flex;
 justify-content: space-around;
 width: 200px;

@@ -29,11 +29,10 @@ main {
 }
 
 .main-img {
-  padding: 2px;
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 header h1 {

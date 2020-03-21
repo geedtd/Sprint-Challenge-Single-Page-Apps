@@ -12,7 +12,7 @@ text-decoration: none;
 border:none;
 height: 40px;
 color: black;
-background-color: cyan;
+background-color: lightblue;
 `
 export default function TabBar() {
     return (

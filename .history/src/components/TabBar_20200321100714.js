@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'react-router-dom';    
+import { Link } from 'react-router-dom';    
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -12,7 +12,7 @@ text-decoration: none;
 border:none;
 height: 40px;
 color: black;
-background-color: teal;
+background-color: light-blue;
 `
 export default function TabBar() {
     return (
