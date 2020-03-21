@@ -3,16 +3,18 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Container = styled.div`
+margin-left: 100px;
 display: flex;
 justify-content: space-around;
 width: 200px;
 `
 const Button = styled.button`
 text-decoration: none;
-border:none;
+border-radius: 3px;
 height: 40px;
+margin: 25px;
 color: black;
-background-color: teal;
+background-color: lightblue;
 `
 export default function TabBar() {
     return (
